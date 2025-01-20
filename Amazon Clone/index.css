@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    
+   
+}
+.nav-logo{
+    padding-top: 0;
+    height: 58px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("img/Amazon-Logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+
+.nav-add{
+    padding-top: 7px;
+    height: 50px;
+}
+
+.add-icon{
+    display: flex;
+}
+
+.add-first{
+
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 16px;
+}
+
+.add-sec{
+
+    font-size: 0.9rem;
+    margin-left: 4px;
+    font-weight: 700;
+}
+
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px; 
+}
+
+.nav-search:hover{
+    border: 3px solid rgb(255, 255, 63);
+}
+.search-select{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    width: 60px;
+    border: none;
+    font-size: 1rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-input:focus{
+    outline: none;
+}
+
+.search-icon{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color: rgb(187, 187, 52);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #0f1111;
+}
+
+/* box 4 */
+
+.nav-signin{
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 120px;
+}
+span{
+    font-size: 0.75rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 5 */
+
+.nav-cart i{
+    padding-top: 10px;
+    font-size: 30px;
+    
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    width: 84px;
+    height: 50px;
+    padding-left: 9px;
+}
+
+
+/* end of navbar */
+
+/* star of next panel */
+
+.panel{
+    padding-top: 60px;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* end of panl */
+
+/* start of banner section */
+
+.banner-section{
+    padding-top: 90px;
+    background-image: url(img/banner.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.banner-msg {
+
+    height: 20px;
+    width: 80%;
+    background-color: #f5f6f6;
+    padding: 10px 14px 10px 14px;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+
+}
+
+.banner-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* end of banner section */
+
+/* start of category section */
+
+.category-section{
+    height: 920px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #E3E6E6;
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 20px 0px 10px;
+}
+
+
+
+/* box 2 */
+
+
+.box2{
+
+    background-color: white;
+    
+
+}
+
+.box2-cont{
+    margin-left: 29px;
+    margin-right: 29px;
+}
+
+
+.box2-image{
+    height: 300px;
+    margin-top: 1rem;
+    background-size: cover;
+}
+.box2-cont p{
+    margin-top: 15px;
+    padding-left: 0px;
+    font-size: small;
+    color: #007185;
+}
+
+
+/* box 6 */
+
+.box6-cont{
+    margin-left: 29px;
+    margin-right: 29px;
+    height: 400px;
+}
+
+.box6-cont p{
+    margin-top: 15px;
+    padding-left: 0px;
+    font-size: small;
+    color: #007185;
+}
+
+.fig6imgcont{
+    /* background-color: blanchedalmond; */
+    height: 300px;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ftemp{
+    margin-left: 0px;
+    padding: 0px;
+    width: 48.5%;
+    height: 48%;
+    /* background-color: #7bf7f7;
+    border: 1px solid white; */
+
+}
+
+.fimg{
+
+    width: 100%;
+    height: 87%;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+/* foooter */
+
+
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+}
+.foot-panel2 ul a{
+    display: block;
+    text-decoration: none;
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 0.85rem;
+
+}
+.foot-panel2 p{
+    padding-left: 0px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+
+.foot-panel3{
+
+    height: 80px;
+    width: 100%;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-logo{
+    background-image: url("img/amazon-logo-1024x683.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+   
+}
+
+.foot-panel4{
+    height: 70px;
+    width: 100%;
+    background-color:#131A22;
+    color: white; 
+    padding-top: 16px;      
+}
+
+.pages{
+    font-size: 0.8rem;
+    text-align: center;
+    color: white;
+    padding-top: 12px;
+}
+
+.pages a{
+    color: white;
+    padding-right: 9px;
+}
+
+
+.foot-panel4 p{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+
